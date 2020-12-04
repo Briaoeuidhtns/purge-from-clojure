@@ -1,0 +1,17 @@
+{
+  "name": "purge-from-clojure",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "rimraf dist/index.js && shadow-cljs release :lib"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "shadow-cljs": "2.11.8"
+  },
+  "dependencies": {}
+}
