@@ -1,0 +1,9 @@
+#+title: PurgeCSS from Clojure
+
+A PurgeCSS extractor for Clojure(Script).
+
+Extracts all symbols, keywords, and strings.
+
+#+begin_src javascript
+const purgecssFromClojure = require('purge-from-clojure');
+#+end_src
