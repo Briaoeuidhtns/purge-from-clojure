@@ -1,7 +1,8 @@
 ;; shadow-cljs configuration
-{:builds {:lib {:dev {:output-to "dev/index.js"},
-                :exports-var purge-from-clojure.core/purge,
-                :release {:output-to "dist/index.js"},
-                :target :node-library}},
- :dependencies [[org.clojure/tools.reader "1.3.4"]],
+{:builds {:lib {:dev {:output-to "dev/index.js"}
+                :exports-var purge-from-clojure.core/purge
+                :release {:output-to "dist/index.js"}
+                :target :node-library}}
+ :dependencies [[org.clojure/tools.reader "1.3.4"]
+                [lambdaisland/regal "0.0.97"]]
  :source-paths ["src"]}
